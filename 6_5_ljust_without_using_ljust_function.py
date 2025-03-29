@@ -1,5 +1,5 @@
 # type something   
-# make characters upper without using upper() function
+# justifiy to left without using ljust()
 # print output
 
 
