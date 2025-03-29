@@ -1,3 +1,19 @@
 # type something
 # swap case without using swapcase() function
 # print output 
+
+# type something
+phrase = input("enter a string: ")
+result = ""
+
+# swap case without using swapcase() function
+for char in phrase:
+    if char.islower():
+        result += char.upper()
+    elif char.isupper():
+        result += char.lower()
+    else:
+        result += char
+
+# print output
+print(result)
