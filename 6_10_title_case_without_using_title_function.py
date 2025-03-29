@@ -13,8 +13,7 @@ for word in words:
         capitalized_word = word[0].upper() + word[1:].lower()
         result += capitalized_word + " "
 
-# title case without using title() function
 # print output 
-
 result = result.strip()
 print(result)
+
