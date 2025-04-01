@@ -17,4 +17,4 @@ for i in range(len(phrase) - len(character) + 1):
 if position != -1:
     print(position)
 else:
-    print(f"The substring '{character}' was not found in the string.")
+    print(f"'{character}' was not found in the string.")
